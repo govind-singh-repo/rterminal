@@ -1,0 +1,67 @@
+.autocomplete-code-container {
+
+    .input-search, .input-selection, .input-cmd {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        border-bottom: 1px solid #eee;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+    
+    .suggestions-container {
+        overflow-y: auto;
+        max-height: 200px;
+        .suggestion-item {
+            margin: 1px 2px;
+            padding: 12px;
+            // border: solid 1px gray;
+            box-shadow: 1px 1px 8px #fff2;
+            color: green;
+            &.active {
+                // background-color: rgba(255, 255, 255, 0.18);
+                p {
+                    color: #00D100;
+                }
+                background-color: #0e0162;
+            }
+        }
+    }
+
+    /* Style the scrollbar to be almost invisible */
+    .suggestions-container {
+        &::-webkit-scrollbar {
+            width: 4px; /* thin scrollbar */
+        }
+        
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+        
+        &::-webkit-scrollbar-thumb:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        /* For Firefox */
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+    }
+
+    .cmd-inp {
+        &.cmd-inp-static{
+            fieldset {
+                border: none !important;
+            }
+        }
+        &.cmd-inp-input input {
+            color: #00D100;
+        }
+    }
+}
