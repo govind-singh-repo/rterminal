@@ -1,3 +1,25 @@
+## License
+This project is licensed under the Apache 2.0 License. See the [LICENSE](./LICENSE) file for details.
+
+# 🧠 Captain Command Suggestor (CCS)
+
+A hacker-themed, AI-augmented terminal launcher built for speed, precision, and aesthetic joy. Designed to empower developers with context-aware command suggestions, ergonomic input simulation, and green-over-black vibes.
+
+# Installation:
+Checkout release to download installers. To make sure AI suggestions work, set GOOGLE_GEMINI_API_KEY in your env file.
+
+## ✨ Features
+
+- 🔍 Subsequence search with blazing-fast filtering
+- 🧠 Gemini-powered natural language command generation
+- 🎯 Keystroke simulation engine with full layout support
+- 🧪 Edge-case handling for shifted/special characters
+- 🖼️ Hacker-inspired UI with dynamic sizing and overlays
+
+## 🚀 Getting Started
+
+
+
 # rterminal
 
 A cross-platform terminal utility with global hotkey, window management, and AI-powered autocomplete.
@@ -77,6 +99,3 @@ $env:OPENAI_API_KEY="your_openai_api_key"
 - AI autocomplete (requires `GOOGLE_GEMINI_API_KEY` to be present in user ENV).
 - Multi-monitor support.
 
-## License
-
-MIT
