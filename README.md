@@ -9,6 +9,17 @@ This project is licensed under the Apache 2.0 License. See the [LICENSE](./LICEN
 # Installation:
 Checkout release to download installers. To make sure AI suggestions work, set GOOGLE_GEMINI_API_KEY in your env file.
 
+# How to work with this:
+  - Start app (it will run in background, to kill it search `Capt CMD Suggestor` in Taskmanager)
+  - Now wherever u want to add cmd, press ctrl+shift+z (can configure it in condig.json file in installed directory)
+  - search for any cmd
+  - if found, select with arrow (up / down)
+  - u can use left / right to select terminal type
+  - pressing tab after selecting one cmd will replace search input with the cmd 
+    - Press enter to send this command
+    - Press Esc to go back
+
+
 ## ✨ Features
 
 - 🔍 Subsequence search with blazing-fast filtering
