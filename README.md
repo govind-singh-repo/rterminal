@@ -1,9 +1,10 @@
-## License
-This project is licensed under the Apache 2.0 License. See the [LICENSE](./LICENSE) file for details.
 
 # 🧠 Captain Command Suggestor (CCS)
 
 A hacker-themed, AI-augmented terminal launcher built for speed, precision, and aesthetic joy. Designed to empower developers with context-aware command suggestions, ergonomic input simulation, and green-over-black vibes.
+
+## License
+This project is licensed under the Apache 2.0 License. See the [LICENSE](./LICENSE) file for details.
 
 # Installation:
 Checkout release to download installers. To make sure AI suggestions work, set GOOGLE_GEMINI_API_KEY in your env file.
@@ -15,6 +16,24 @@ Checkout release to download installers. To make sure AI suggestions work, set G
 - 🎯 Keystroke simulation engine with full layout support
 - 🧪 Edge-case handling for shifted/special characters
 - 🖼️ Hacker-inspired UI with dynamic sizing and overlays
+
+
+# 📦 Tech Stack
+- Rust (core engine)
+- React + MUI (UI layer)
+- Redis (state sync)
+- Gemini AI (command augmentation)
+
+# 💼 Hire Me
+If this project resonates with you and you're looking for someone who builds ergonomic automation tools with creative flair—I'd love to connect.
+
+- 📫 Email: govind@hbook.in / mailtoraygovind@gmail.com
+- 🌐 Portfolio: me.hbook.in
+
+# 🙌 Attribution
+If you use this project, please credit it. A shoutout or backlink helps indie devs like me keep building cool stuff.
+
+
 
 ## 🚀 Getting Started
 
