@@ -103,19 +103,19 @@ yarn tauri build
 To enable AI-powered autocomplete, set the following environment variable before running:
 
 ```sh
-export OPENAI_API_KEY=your_openai_api_key
+export GOOGLE_GEMINI_API_KEY=your_GOOGLE_GEMINI_API_KEY
 ```
 
 On Windows (cmd):
 
 ```cmd
-set OPENAI_API_KEY=your_openai_api_key
+set GOOGLE_GEMINI_API_KEY=your_GOOGLE_GEMINI_API_KEY
 ```
 
 On Windows (PowerShell):
 
 ```powershell
-$env:OPENAI_API_KEY="your_openai_api_key"
+$env:GOOGLE_GEMINI_API_KEY="your_GOOGLE_GEMINI_API_KEY"
 ```
 
 ## Configuration
